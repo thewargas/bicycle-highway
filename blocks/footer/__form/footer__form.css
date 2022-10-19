@@ -1,0 +1,9 @@
+.footer__form {
+  max-width: 360px;
+  min-height: 50px;
+}
+@media (max-width: 600px) {
+  .footer__form {
+    width: calc(100% - 36px);
+  }
+}

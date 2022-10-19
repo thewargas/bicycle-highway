@@ -1,2 +1,13 @@
 .footer {
+  width: calc(100% - 120px);
+  padding-left: 120px;
+}
+@media (max-width: 600px) {
+  .footer {
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

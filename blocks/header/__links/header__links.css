@@ -1,0 +1,12 @@
+.header__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 34px;
+}
+@media (max-width: 425px) {
+  .header__links {
+    display: none;
+  }
+}

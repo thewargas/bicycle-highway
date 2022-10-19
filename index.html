@@ -7,8 +7,138 @@
     <title>Велосипеды для соревнований</title>
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main class="content"></main>
-    <footer class="footer"></footer>
+    <header class="header">
+      <nav>
+        <ul class="header__links">
+          <li><a class="header__link" href="#">Покрытия и градиенты</a></li>
+          <li><a class="header__link" href="#">Велосипеды</a></li>
+          <li><a class="header__link" href="#">Тренировки</a></li>
+        </ul>
+      </nav>
+      <a class="header__burger" href="#">☰</a>
+    </header>
+    <main class="content">
+      <div class="page">
+        <section class="intro">
+          <article class="pasteboard">
+            <h1 class="pasteboard__title">Шоссе, ТТ и Грэвел</h1>
+            <p class="pasteboard__subtitle">
+              Триатлонные старты, горные серпантины или грейвел заезды по
+              живописным маршрутам – нужно только определиться с выбором
+              велосипеда и отправиться в путь.
+            </p>
+          </article>
+          <button class="intro__button">Подробнее</button>
+          <a href="#" class="intro__link">Cannondale Systemsix</a>
+          <!--остались after элемент ссылки "Color BG" - серая полоска и пикча, на мой взгляд она идет фоном - в стилях content её-->
+        </section>
+        <section class="merks">
+          <blockquote class="merks__quote">
+            «Катайся много или мало, долго или коротко, как хочешь - но катайся»
+          </blockquote>
+          <p class="merks__quote-author">Эдди Меркс</p>
+          <p class="merks__quote-author-subline">Велогонщик</p>
+          <!--осталась пикча, тоже фоновая - в bg секции её-->
+        </section>
+        <section class="highway">
+          <article class="pasteboard">
+            <h1 class="pasteboard__title">Шоссе</h1>
+            <p class="pasteboard__subtitle">
+              На шоссейном велосипеде можно ездить по асфальту на разных
+              градиентах: будь то горы или равнины. Гонки проходят в командном
+              пелотоне, но тренироваться можно и самостоятельно.
+            </p>
+          </article>
+          <div class="highway__galery">
+            <img
+              src="./images/photo-grid-road.jpg"
+              alt="Идеальная шоссейная дорога для велосипедиста"
+              class="highway__galery-item highway__galery-item_active"
+            /><!--тут надо добавить зеленую svg геометрию, при ховере она, допустим, должна растягиваться в надпись или в вектор схему трека-->
+            <img
+              src="./images/photo-grid-forrest.jpg"
+              alt="Идеальное лесное бездорожье для велосипедиста"
+              class="highway__galery-item"
+            /><!--тут надо добавить зеленую геометрию, при ховере она, допустим, должна растягиваться в надпись или в вектор схему трека-->
+            <button
+              class="highway__galery-scroll highway__galery-scroll_direction_back"
+            >
+              &lsaquo;
+            </button>
+            <button
+              class="highway__galery-scroll highway__galery-scroll_direction_forward"
+            >
+              &rsaquo;
+            </button>
+          </div>
+        </section>
+        <section class="bicycles">
+          <h2 class="bicycles__title">Велосипеды</h2>
+          <nav class="bicycles__type">
+            <ul class="bicycles__links">
+              <li class="bicycles__link bicycle__link_active">Шоссе</li>
+              <li class="bicycles__link">Грэвел</li>
+              <li class="bicycles__link">ТТ</li>
+            </ul>
+          </nav>
+          <ul class="bicycles__cards">
+            <li class="bicycles__card">
+              <img
+                src="./images/bycicle-grid-Cervelo-Caledonia.jpg"
+                alt="Cervelo Caledonia-5  король шоссейных велосипедов"
+                class="bicycles__card-image"
+              />
+              <p class="bicycles__card-description">Cervelo Caledonia-5</p>
+            </li>
+            <li class="bicycles__card">
+              <img
+                src="./images/bycicle-grid-Cannondale-Systemsix.jpg"
+                alt="Cannondale Systemsix Himod аэродинамический обвес всех времен"
+                class="bicycles__card-image"
+              />
+              <p class="bicycles__card-description">
+                Cannondale Systemsix Himod
+              </p>
+            </li>
+            <li class="bicycles__card">
+              <img
+                src="./images/bycicle-grid-Trek-domane.jpg"
+                alt="Trek Domane SL-7 быть победителем можно только с этим велосипедом"
+                class="bicycles__card-image"
+              />
+              <p class="bicycles__card-description">Trek Domane SL-7</p>
+            </li>
+          </ul>
+        </section>
+        <section class="training">
+          <!--картинка фоном-->
+          <article class="pasteboard">
+            <h2 class="pasteboard__title">Тренировки</h2>
+            <p class="pasteboard__subtitle">
+              Чтобы найти маршрут для тренировки можно воспользоваться сервисом
+              Komoot, а записать эти тренировки поможет приложение Strava, а
+              также это приложение позволит построить тренировочный план.
+            </p>
+          </article>
+          <ul class="training__links">
+            <li class="training__link">Strava</li>
+            <li class="training__link">Komoot</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+      <form class="footer__form" action="#">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="footer__form-email"
+          placeholder="Ваш e-mail"
+        />
+      </form>
+      <p class="footer__copyright">© Road Club 2022</p>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,14 @@
+.header__burger {
+  display: none;
+  text-decoration: none;
+  color: #151515;
+  max-width: 22px;
+  font-size: 25px;
+  line-height: 19px;
+}
+@media (max-width: 425px) {
+  .header__burger {
+    display: block;
+    margin-right: 18px;
+  }
+}

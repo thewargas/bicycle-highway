@@ -4,6 +4,7 @@
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   font-family: "Inter", Arial, sans-serif;

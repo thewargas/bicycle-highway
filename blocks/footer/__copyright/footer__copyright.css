@@ -1,0 +1,20 @@
+.footer__copyright {
+  margin: 100px 0 60px;
+  width: 125px;
+  color: #cfcfcf;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+@media (max-width: 600px) {
+  .footer__copyright {
+    padding-right: 235px;
+    margin: 99px 0 25px;
+  }
+}
+@media (max-width: 396px) {
+  .footer__copyright {
+    padding-right: 0;
+    width: calc(100% - 36px);
+  }
+}

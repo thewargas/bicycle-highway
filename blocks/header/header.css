@@ -1,2 +1,22 @@
 .header {
+  margin: 0;
+  width: calc(100% - 120px);
+  padding-right: 120px;
+  min-height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  /* position: fixed; */
+}
+@media (max-width: 638px) {
+  .header {
+    width: 100%;
+    padding-right: 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 425px) {
+  .header {
+    justify-content: end;
+  }
 }
