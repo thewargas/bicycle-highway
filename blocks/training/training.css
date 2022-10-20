@@ -1,0 +1,30 @@
+.training {
+  padding: 150px 0 0 0;
+  width: 1320px;
+  height: 580px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1320px) {
+  .training {
+    padding: 150px 18px 0;
+    width: calc(100% - 36px);
+  }
+}
+@media (max-width: 1088px) {
+  .training {
+    height: calc((100vw - 36px) / 2.33);
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 922px) {
+  .training {
+    height: max-content;
+  }
+}
+@media (max-width: 425px) {
+  .training {
+    padding-top: 0;
+  }
+}

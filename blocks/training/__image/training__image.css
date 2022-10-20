@@ -1,0 +1,23 @@
+.training__image {
+  position: absolute;
+  top: 150px;
+  right: 0;
+}
+@media (max-width: 1320px) {
+  .training__image {
+    right: 18px;
+  }
+}
+@media (max-width: 1100px) {
+  .training__image {
+    width: calc(100vw - 520px);
+  }
+}
+@media (max-width: 922px) {
+  .training__image {
+    margin-top: 40px;
+    align-self: center;
+    width: 100%;
+    position: static;
+  }
+}

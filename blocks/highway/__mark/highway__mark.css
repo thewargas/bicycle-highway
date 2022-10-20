@@ -1,0 +1,17 @@
+.highway__mark {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  bottom: 16px;
+  left: 0;
+  background-image: url(../../../images/photo-grid-mark.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media (max-width: 425px) {
+  .highway__mark {
+    width: 70px;
+    height: 28px;
+    bottom: 14px;
+  }
+}

@@ -35,6 +35,7 @@
 @import url(../blocks/highway/__galery-scroll/highway__galery-scroll.css);
 @import url(../blocks/highway/__galery-scroll/_direction/highway__galery-scroll_direction_back.css);
 @import url(../blocks/highway/__galery-scroll/_direction/highway__galery-scroll_direction_forward.css);
+@import url(../blocks/highway/__mark/highway__mark.css);
 
 @import url(../blocks/bicycles/bicycles.css);
 @import url(../blocks/bicycles/__title/bicycles__title.css);
@@ -48,6 +49,7 @@
 @import url(../blocks/bicycles/__card-description/bicycles__card-description.css);
 
 @import url(../blocks/training/training.css);
+@import url(../blocks/training/__image/training__image.css);
 @import url(../blocks/training/__links/training__links.css);
 @import url(../blocks/training/__link/training__link.css);
 /* Footer */

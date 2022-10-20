@@ -1,0 +1,12 @@
+.training__links {
+  margin: 182px 0 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+@media (max-width: 1088px) {
+  .training__links {
+    margin-top: 40px;
+  }
+}
