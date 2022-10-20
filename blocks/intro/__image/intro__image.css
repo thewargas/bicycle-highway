@@ -1,0 +1,20 @@
+.intro__image {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  z-index: -1;
+}
+@media (max-width: 1088px) {
+  .intro__image {
+    height: calc(100% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  .intro__image {
+    margin-top: 40px;
+    position: static;
+    align-self: flex-end;
+    max-width: 284px;
+    max-height: 348px;
+  }
+}

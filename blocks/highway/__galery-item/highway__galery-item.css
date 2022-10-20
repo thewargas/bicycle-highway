@@ -1,0 +1,9 @@
+.highway__galery-item {
+  width: calc((100% - 40px) / 2);
+}
+@media (max-width: 626px) {
+  .highway__galery-item {
+    display: none;
+    width: 100%;
+  }
+}

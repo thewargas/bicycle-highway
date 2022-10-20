@@ -1,0 +1,27 @@
+.highway__galery-scroll {
+  padding: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  background: #ebebeb;
+  border-radius: 50px;
+  font-size: 40px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+  color: #151515;
+}
+.highway__galery-scroll:hover {
+  opacity: 0.7;
+}
+@media (max-width: 425px) {
+  .highway__galery-scroll {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+  }
+}

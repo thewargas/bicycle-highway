@@ -1,0 +1,14 @@
+.section-line {
+  width: calc(100% - 18px);
+  height: 1px;
+  order: -2;
+  border: 0;
+  background-color: #e3e3e3;
+  margin: 40px 0;
+  display: none;
+}
+@media (max-width: 425px) {
+  .section-line {
+    display: block;
+  }
+}

@@ -1,0 +1,26 @@
+.intro {
+  padding: 80px 0 0 120px;
+  width: calc(100% - 120px);
+  height: 776px;
+  position: relative;
+}
+@media (max-width: 1189px) {
+  .intro {
+    padding-left: calc(100vw - 1070px);
+    width: calc(100% - (100vw - 1070px));
+  }
+}
+@media (max-width: 1088px) {
+  .intro {
+    padding-left: 18px;
+    width: calc(100% - 18px);
+    height: min-content;
+  }
+}
+@media (max-width: 768px) {
+  .intro {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+}

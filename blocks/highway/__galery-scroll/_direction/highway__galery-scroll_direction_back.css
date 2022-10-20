@@ -1,0 +1,12 @@
+.highway__galery-scroll_direction_back {
+  left: 0;
+  bottom: -100px;
+}
+@media (max-width: 425px) {
+  .highway__galery-scroll_direction_back {
+    top: -73px;
+    bottom: auto;
+    left: auto;
+    right: 28px;
+  }
+}
