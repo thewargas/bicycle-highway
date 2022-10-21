@@ -6,7 +6,7 @@
   max-width: 340px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
 .bicycles__card-image {
     width: 254.11px;
     border-width: 14.95px;

@@ -6,7 +6,11 @@
   align-items: end;
   gap: 40px;
 }
-
+@media (max-width: 1200px) {
+  .bicycles__links {
+    margin-right: 18px;
+  }
+}
 @media (max-width: 768px) {
   .bicycles__links {
     display: none;
