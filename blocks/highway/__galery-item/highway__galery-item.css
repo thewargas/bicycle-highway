@@ -1,5 +1,4 @@
 .highway__galery-item {
-  width: calc((100% - 20px) / 2);
   overflow: hidden;
 }
 @media (max-width: 1439px) {

@@ -12,5 +12,7 @@
     border-width: 14.95px;
     border-bottom-width: 36.95px;
     border-radius: 14.95px;
+    position: relative;
+    top: -30px;
   }
 }

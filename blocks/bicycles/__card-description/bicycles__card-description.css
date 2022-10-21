@@ -15,3 +15,11 @@
     padding-left: 0;
   }
 }
+
+@media (max-width: 425px) {
+  .bicycles__card-description {
+    position: absolute;
+    padding-left: 72px;
+    padding-top: 244px;
+  }
+}

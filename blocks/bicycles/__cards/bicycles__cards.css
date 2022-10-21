@@ -7,18 +7,35 @@
   list-style: none;
   justify-content: center;
 }
+
 @media (max-width: 425px) {
+  .bicycles__cards {
+    max-height: 310px;
+  }
+
   .bicycles__cards::after {
+    content: "..";
+    display: inline;
+    font-size: 30px;
+    width: 4px;
+    height: 4px;
+    color: #CACACA;
+    position: relative;
+    top: -191px;
+    left: -44px;
+  }
+
+  .bicycles__cards::before {
     content: '';
-      display: block;
-      width: 4px;
-      height: 4px;
-      -moz-border-radius: 2px;
-      -webkit-border-radius: 2px;
-      border-radius: 2px;
-      background: repeat-x;
-      background-color: #151515;
-      margin-left: 130px;
-      margin-top: 20px;
+    display: block;
+    width: 4px;
+    height: 4px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #151515;
+    position: relative;
+    top: 331px;
+    left: -20px;
   }
 }
