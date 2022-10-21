@@ -17,7 +17,7 @@
     height: min-content;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .intro {
     padding-top: 40px;
     display: flex;

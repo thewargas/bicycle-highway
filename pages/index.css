@@ -24,7 +24,10 @@
 @import url(../blocks/intro/__image/intro__image.css);
 
 @import url(../blocks/merks/merks.css);
+@import url(../blocks/merks/__image/merks__image.css);
+@import url(../blocks/merks/__blockquote/merks__blockquote.css);
 @import url(../blocks/merks/__quote/merks__quote.css);
+@import url(../blocks/merks/__author/merks__author.css);
 @import url(../blocks/merks/__quote-author/merks__quote-author.css);
 @import url(../blocks/merks/__quote-author-subline/merks__quote-author-subline.css);
 
@@ -38,8 +41,8 @@
 @import url(../blocks/highway/__mark/highway__mark.css);
 
 @import url(../blocks/bicycles/bicycles.css);
-@import url(../blocks/bicycles/__title/bicycles__title.css);
 @import url(../blocks/bicycles/__type/bicycles__type.css);
+@import url(../blocks/bicycles/__title/bicycles__title.css);
 @import url(../blocks/bicycles/__links/bicycles__links.css);
 @import url(../blocks/bicycles/__link/bicycles__link.css);
 @import url(../blocks/bicycles/__link/_active/bicycles__link_active.css);

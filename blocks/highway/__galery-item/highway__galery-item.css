@@ -1,9 +1,19 @@
 .highway__galery-item {
-  width: calc((100% - 40px) / 2);
+  width: calc((100% - 20px) / 2);
+}
+@media (max-width: 1439px) {
+  .highway__galery-item {
+    width: calc((100% - 40px) / 2);
+  }
 }
 @media (max-width: 626px) {
   .highway__galery-item {
     display: none;
     width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .highway__galery-item {
+    height: 175px;
   }
 }

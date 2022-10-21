@@ -1,5 +1,5 @@
-.bicycles__type {
+.merks__blockquote {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 120px;
 }

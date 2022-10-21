@@ -6,7 +6,10 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  /* position: fixed; */
+  position: sticky;
+  background-color: #f4f4f4;
+  z-index: 1;
+  top: 0;
 }
 @media (max-width: 638px) {
   .header {

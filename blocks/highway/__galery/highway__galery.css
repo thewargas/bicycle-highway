@@ -4,6 +4,7 @@
   position: relative;
   display: flex;
   width: 100%;
+  overflow: hidden;
 }
 @media (max-width: 626px) {
   .highway__galery {

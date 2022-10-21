@@ -14,7 +14,7 @@
     margin-top: 40px;
     position: static;
     align-self: flex-end;
-    max-width: 284px;
-    max-height: 348px;
+    width: 254px;
+    height: 348px;
   }
 }

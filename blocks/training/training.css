@@ -1,12 +1,12 @@
 .training {
   padding: 150px 0 0 0;
-  width: 1320px;
+  width: 1200px;
   height: 580px;
   position: relative;
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 1320px) {
+@media (max-width: 1220px) {
   .training {
     padding: 150px 18px 0;
     width: calc(100% - 36px);

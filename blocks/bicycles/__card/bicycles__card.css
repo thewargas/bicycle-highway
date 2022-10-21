@@ -1,0 +1,11 @@
+.bicycles__card {
+  background: #F4F4F4;
+  width: 380px;
+  height: 434px;
+  text-decoration: none;
+  transition: opacity 0.3s linear;
+}
+
+.bicycles__card:hover {
+  opacity: 0.7;
+}

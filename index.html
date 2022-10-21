@@ -10,9 +10,17 @@
     <header class="header">
       <nav>
         <ul class="header__links">
-          <li><a class="header__link" href="#">Покрытия и градиенты</a></li>
-          <li><a class="header__link" href="#">Велосипеды</a></li>
-          <li><a class="header__link" href="#">Тренировки</a></li>
+          <li>
+            <a class="header__link" href="#section-highway"
+              >Покрытия и градиенты</a
+            >
+          </li>
+          <li>
+            <a class="header__link" href="#section-bycycles">Велосипеды</a>
+          </li>
+          <li>
+            <a class="header__link" href="#section-training">Тренировки</a>
+          </li>
         </ul>
       </nav>
       <a class="header__burger" href="#">☰</a>
@@ -33,14 +41,23 @@
         <button class="intro__button">Подробнее</button>
         <p class="intro__text">Cannondale Systemsix</p>
       </section>
-      <!-- <section class="merks">
-        <blockquote class="merks__quote">
-          «Катайся много или мало, долго или коротко, как хочешь - но катайся»
-        </blockquote>
-        <p class="merks__quote-author">Эдди Меркс</p>
-        <p class="merks__quote-author-subline">Велогонщик</p>
-      </section> -->
-      <section class="highway">
+      <section class="merks">
+        <img
+          src="./images/section2-road-fog.jpg"
+          alt="Катание на велосипеде в пасмурную погоду в тумане"
+          class="merks__image"
+        />
+        <div class="merks__blockquote">
+          <blockquote class="merks__quote">
+            «Катайся много или мало, долго или коротко, как хочешь - но катайся»
+          </blockquote>
+          <div class="merks__author">
+            <p class="merks__quote-author">Эдди Меркс</p>
+            <p class="merks__quote-author-subline">Велогонщик</p>
+          </div>
+        </div>
+      </section>
+      <section class="highway" id="section-highway">
         <hr class="section-line" />
         <h2 class="section-title">Шоссе</h2>
         <p class="section-subtitle">
@@ -72,43 +89,65 @@
           </button>
         </div>
       </section>
-      <!-- <section class="bicycles">
-        <h2 class="bicycles__title">Велосипеды</h2>
+      <section class="bicycles" id="section-bycycles">
         <nav class="bicycles__type">
+          <h2 class="bicycles__title">Велосипеды</h2>
           <ul class="bicycles__links">
-            <li class="bicycles__link bicycle__link_active">Шоссе</li>
-            <li class="bicycles__link">Грэвел</li>
-            <li class="bicycles__link">ТТ</li>
+            <li>
+              <a class="bicycles__link bicycles__link_active" href="">Шоссе</a>
+            </li>
+            <li><a class="bicycles__link" href="#">Грэвел</a></li>
+            <li><a class="bicycles__link" href="#">ТТ</a></li>
           </ul>
         </nav>
         <ul class="bicycles__cards">
-          <li class="bicycles__card">
-            <img
-              src="./images/bycicle-grid-Cervelo-Caledonia.jpg"
-              alt="Cervelo Caledonia-5  король шоссейных велосипедов"
-              class="bicycles__card-image"
-            />
-            <p class="bicycles__card-description">Cervelo Caledonia-5</p>
+          <li>
+            <a
+              target="_blank"
+              class="bicycles__card"
+              href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
+            >
+              <img
+                src="./images/bycicle-grid-Cervelo-Caledonia.png"
+                alt="Cervelo Caledonia-5  король шоссейных велосипедов"
+                class="bicycles__card-image"
+              />
+              <p class="bicycles__card-description">Cervelo Caledonia-5</p>
+            </a>
           </li>
-          <li class="bicycles__card">
-            <img
-              src="./images/bycicle-grid-Cannondale-Systemsix.jpg"
-              alt="Cannondale Systemsix Himod аэродинамический обвес всех времен"
-              class="bicycles__card-image"
-            />
-            <p class="bicycles__card-description">Cannondale Systemsix Himod</p>
+          <li>
+            <a
+              target="_blank"
+              class="bicycles__card"
+              href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+            >
+              <img
+                src="./images/bycicle-grid-Cannondale-Systemsix.png"
+                alt="Cannondale Systemsix Himod аэродинамический обвес всех времен"
+                class="bicycles__card-image"
+              />
+              <p class="bicycles__card-description">
+                Cannondale Systemsix Himod
+              </p>
+            </a>
           </li>
-          <li class="bicycles__card">
-            <img
-              src="./images/bycicle-grid-Trek-domane.jpg"
-              alt="Trek Domane SL-7 быть победителем можно только с этим велосипедом"
-              class="bicycles__card-image"
-            />
-            <p class="bicycles__card-description">Trek Domane SL-7</p>
+          <li>
+            <a
+              target="_blank"
+              class="bicycles__card"
+              href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
+            >
+              <img
+                src="./images/bycicle-grid-Trek-domane.png"
+                alt="Trek Domane SL-7 быть победителем можно только с этим велосипедом"
+                class="bicycles__card-image"
+              />
+              <p class="bicycles__card-description">Trek Domane SL-7</p>
+            </a>
           </li>
         </ul>
-      </section> -->
-      <section class="training">
+      </section>
+      <section class="training" id="section-training">
         <hr class="section-line" />
         <h2 class="section-title">Тренировки</h2>
         <img
@@ -122,8 +161,22 @@
           это приложение позволит построить тренировочный план.
         </p>
         <ul class="training__links">
-          <li><a class="training__link" href="#">Strava</a></li>
-          <li><a class="training__link" href="#">Komoot</a></li>
+          <li>
+            <a
+              class="training__link"
+              href="https://www.komoot.com"
+              target="_blank"
+              >Strava</a
+            >
+          </li>
+          <li>
+            <a
+              class="training__link"
+              href="https://www.strava.com"
+              target="_blank"
+              >Komoot</a
+            >
+          </li>
         </ul>
       </section>
     </main>

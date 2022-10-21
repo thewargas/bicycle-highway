@@ -4,6 +4,10 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
+  transition: opacity 0.3s linear;
+}
+.training__link:hover {
+  opacity: 0.7;
 }
 @media (max-width: 425px) {
   .training__link {

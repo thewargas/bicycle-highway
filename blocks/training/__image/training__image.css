@@ -3,7 +3,7 @@
   top: 150px;
   right: 0;
 }
-@media (max-width: 1320px) {
+@media (max-width: 1220px) {
   .training__image {
     right: 18px;
   }

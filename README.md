@@ -50,7 +50,7 @@
 
 ## Ссылки
 
-- Github Pages -
+- Github Pages - https://thewargas.github.io/bicycle-highway/
 - Github - https://github.com/thewargas/bicycle-highway
 
 ---
