@@ -3,4 +3,15 @@
   font-size: 18px;
   line-height: 1.22;
   color: #151515;
+  margin: 0;
+  padding-top: 22px;
+  padding-left: 6px;
+}
+
+@media (max-width: 768px) {
+  .bicycles__card-description {
+    font-size: 14px;
+    line-height: 1.29;
+    padding-left: 0;
+  }
 }

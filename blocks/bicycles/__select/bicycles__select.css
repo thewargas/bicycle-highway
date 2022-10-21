@@ -1,0 +1,22 @@
+.bicycles__select {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .bicycles__select {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 14.95px;
+    border: 1px solid #E3E3E3;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+    width: 114px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.27;
+    color: #151515;
+    padding-left: 6px;
+  }
+}

@@ -1,9 +1,22 @@
 .merks__quote {
   margin: 0;
-  padding-right: 120px;
   font-weight: 600;
   font-size: 34px;
   line-height: 1.29;
   letter-spacing: -0.5px;
   color: #151515;
+}
+
+@media (max-width: 1280px) {
+  .merks__quote {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .merks__quote {
+    font-size: 23px;
+    line-height: 1.26;
+  }
 }

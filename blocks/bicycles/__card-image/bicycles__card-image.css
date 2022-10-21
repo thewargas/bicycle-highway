@@ -5,3 +5,12 @@
   border-radius: 20px;
   max-width: 340px;
 }
+
+@media (max-width: 768px) {
+.bicycles__card-image {
+    width: 254.11px;
+    border-width: 14.95px;
+    border-bottom-width: 36.95px;
+    border-radius: 14.95px;
+  }
+}

@@ -43,11 +43,14 @@
 @import url(../blocks/bicycles/bicycles.css);
 @import url(../blocks/bicycles/__type/bicycles__type.css);
 @import url(../blocks/bicycles/__title/bicycles__title.css);
+@import url(../blocks/bicycles/__select/bicycles__select.css);
+@import url(../blocks/bicycles/__select-type/bicycles__select-type.css);
 @import url(../blocks/bicycles/__links/bicycles__links.css);
 @import url(../blocks/bicycles/__link/bicycles__link.css);
 @import url(../blocks/bicycles/__link/_active/bicycles__link_active.css);
 @import url(../blocks/bicycles/__cards/bicycles__cards.css);
 @import url(../blocks/bicycles/__card/bicycles__card.css);
+@import url(../blocks/bicycles/__card/_active/bicycles__card_active.css);
 @import url(../blocks/bicycles/__card-image/bicycles__card-image.css);
 @import url(../blocks/bicycles/__card-description/bicycles__card-description.css);
 

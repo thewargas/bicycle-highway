@@ -28,5 +28,6 @@
   .intro__button {
     width: calc(100% - 18px);
     height: 46px;
+    margin-top: 40px;
   }
 }

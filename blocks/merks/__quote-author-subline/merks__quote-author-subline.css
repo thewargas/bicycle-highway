@@ -6,3 +6,10 @@
   line-height: 1.75;
   opacity: 0.7;
 }
+
+@media (max-width: 768px) {
+  .merks__quote-author-subline {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+}

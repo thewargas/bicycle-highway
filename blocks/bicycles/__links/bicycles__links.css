@@ -6,3 +6,9 @@
   align-items: end;
   gap: 40px;
 }
+
+@media (max-width: 768px) {
+  .bicycles__links {
+    display: none;
+  }
+}

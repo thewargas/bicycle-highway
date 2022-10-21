@@ -12,9 +12,15 @@
 @media (max-width: 768px) {
   .intro__image {
     margin-top: 40px;
+    margin-right: 18px;
     position: static;
+    align-self: flex-start;
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  .intro__image {
     align-self: flex-end;
     width: 254px;
-    height: 348px;
   }
 }

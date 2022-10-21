@@ -1,4 +1,10 @@
 .bicycles {
-  padding: 60px 120px 0 120px;
+  padding: 60px 0 60px;
   max-width: 1200px;
+}
+
+@media (max-width: 425px) {
+  .bicycles {
+    padding-left: 18px;
+  }
 }
